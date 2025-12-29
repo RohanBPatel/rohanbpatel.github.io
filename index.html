@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site Info -->
+    <title>Rohan Patel - Portfolio</title>
+    <meta name="description" content="Rohan Patel - I am a Purdue engineer interested in dynamical systems, numerical methods, and scientific machine learning (SciML).">
+    <meta name="author" content="Rohan Patel">
+
+    <!-- Open Graph Tags: The title of the page for social media sharing. It can match the title tag or be more descriptive. -->
+    <meta property="og:title" content="Rohan Patel">
+
+    <!-- Open Graph Tags: Typically set to "website" for static sites or "article" for content-heavy pages. -->
+    <meta property="og:type" content="website">
+
+    <!-- Open Graph Tags: The URL of the page, used to ensure link previews resolve to the correct page. -->
+    <meta property="og:url" content="rohanbpatel.github.io/index.html">
+
+    <!-- Open Graph Tags: URL of an image that represents the page. Useful for link previews. -->
+    <meta property="og:image" content="rohanbpatel.github.io/portfolio_media/My_Face.jpg">
+
+    <!-- Open Graph Tags: Provides an alternative text for the image to improve accessibility. -->
+    <meta property="og:image:alt" content="Rohan Patel Profile Image">
+
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Custom Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+          rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/modern_normalize.css" />
+    <link rel="stylesheet" href="css/html5bp.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Set a theme color that matches your website's primary color -->
+    <meta name="theme-color" content="#fafafa">
+
+    <!-- Favicon for all browsers -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+
+    <!-- Apple touch icon for iOS devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.png">
+
+    <!-- Web app manifest for Progressive Web Apps -->
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Content Security Policy: Uncomment to enhance security by restricting where content can be loaded from (useful for preventing certain attacks like XSS). Update if adding external sources (e.g., Google Fonts, Bootstrap CDN, analytics, etc). -->
+    <!-- <meta http-equiv="Content-Security-Policy" content=" default-src 'self'; script-src 'self' code.jquery.com; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' images.examplecdn.com; "> -->
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-top flex-responsive">
+          
+            <img class="header-image"
+                 width="256"
+                 height="256"
+                 src="portfolio_media/My_Face.jpg"
+                 alt="Rohan Patel Profile Image" />
+          
+          <div class="header-info">
+            <h1>Rohan Patel</h1>
+            <h2 class="header-label">Engineer &amp; Researcher</h2>
+            
+              <address>
+                <ul class="inline-list flex-responsive">
+                  
+                    <li>
+                      <a href="mailto:pate2043@purdue.edu">pate2043@purdue.edu</a>
+                    </li>
+                  
+                  
+                    <li>
+                      <a href="tel:+6104694713">610-469-4713</a>
+                    </li>
+                  
+                  
+                </ul>
+              </address>
+            
+            
+              <ul class="inline-list flex-responsive">
+                
+                  <li>
+                    <a href="https://www.linkedin.com/in/rohan-patel-eng"
+                       rel="noopener noreferrer"
+                       aria-label="LinkedIn"
+                       class="link-with-icon">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-linkedin"
+     viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+</svg>
+
+                      LinkedIn
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://github.com/RohanBPatel"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub"
+                       class="link-with-icon">
+                      <svg aria-hidden="true"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img"
+     width="16"
+     height="16"
+     fill="currentColor"
+     class="bi bi-github"
+     viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+</svg>
+
+                      GitHub
+                    </a>
+                  </li>
+                
+              </ul>
+            
+            <p class="header-summary">I am a Purdue engineer interested in dynamical systems, numerical methods, and scientific machine learning (SciML).</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="page-content">
+      <div class="container">
+        <main>
+          
+            <section>
+              <h2 class="section-heading">Work Experience</h2>
+              
+                <section>
+                  <h3>
+                    
+                      SciML Research Assistant at Purdue University <a href='https://engineering.purdue.edu/ME'>School of Mechanical Engineering</a> and <a href='https://ag.purdue.edu/department/foodsci/'>Department of Food Science</a>
+                    
+                  </h3>
+                  
+                    <p class="section-label">01/2025 - Present</p>
+                  
+                  <p>Working with Prof. <a href='https://engineering.purdue.edu/ABE/people/ptProfile?resource_id=42935'>Corvalan</a> in SciML <!-- https://ag.purdue.edu/department/foodsci/directory.html#/corvalac --></p>
+                  
+                    <ul>
+                      <li>Simulated fluid dynamics of microdroplets for use in 3D printing</li><li>Used Finite Elements and Physics-Informed Neural Networks to solve differential equations with mixed boundary conditions</li><li>Experimented with biased Neural Autoencoders to statistically test food rheology data</li>
+                    </ul>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      Tutor at EdHelper LLC
+                    
+                  </h3>
+                  
+                    <p class="section-label">06/2022 - 08/2022</p>
+                  
+                  
+                  
+                    <ul>
+                      <li>Taught classes on middle and high school math</li><li>Graded SAT practice tests</li><li>Developed an automated system with Excel, WhatsApp, and Python to score tests and send score reports for 100+ customers</li>
+                    </ul>
+                  
+                </section>
+              
+            </section>
+          
+
+          
+            <section>
+              <h2 class="section-heading">Projects</h2>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        3D Printed Roller Coaster
+                      
+                    </h3>
+                    
+                      <span class="project-tags">CAD | Programming | Robotics</span>
+                    
+                  </div>
+                  <p>Theme Park Engineering and Design</p>
+                  
+                    <ul>
+                      <li>Led over 45 members in designing and manufacturing a 1:30 scale roller coaster</li><li>Developed a full kinematic simulation and ODE solver in Python with NumPy, Matplotlib, Scipy, logging, etc.</li><li>Optimized track segmentation and structural support placement to minimize print time and beam deflection</li><li>Created SolidWorks macros (VBA) for members to model track</li><li>Presented <em>Roller Coaster Track and Support Structure: Dynamics, Simulation, and Optimization</em> at Undergraduate Research Conference</li><li><a href='https://youtu.be/KLCaBF1GcpE'>23-24 Manufacturing Documentation Video</a></li>
+                    </ul>
+                  
+                  
+                    <!-- <div class="gallery main-gallery"> -->
+                    <div class="gallery main-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/anim_test_2.gif"
+                               alt="">
+                          <figcaption></figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/figure_01.png"
+                               alt="">
+                          <figcaption></figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/figure_08.png"
+                               alt="">
+                          <figcaption></figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/deflection.png"
+                               alt="">
+                          <figcaption></figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/tped_3DPRC_23-24.jpg"
+                               alt="">
+                          <figcaption></figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/tped_3DPRC_CAD.png"
+                               alt="">
+                          <figcaption></figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        <a href="https://wiki.purduesigbots.com/">Robotics Wiki</a>
+                      
+                    </h3>
+                    
+                      <span class="project-tags">Robotics</span>
+                    
+                  </div>
+                  <p>I maintain this open-source robotics documentation project.</p>
+                  
+                    <ul>
+                      <li>largest open source knowledge base for competitive robotics</li><li>over 40K monthly pageviews</li><li>Some of my most educational articles are on <a href='https://wiki.purduesigbots.com/hardware/shooting-mechanisms/flywheel'>flywheels</a>, <a href='https://wiki.purduesigbots.com/hardware/lifts/four-bar'>four-bars</a>, and <a href='https://wiki.purduesigbots.com/hardware/design-fundamentals/center-of-mass'>center of mass</a>.</li><li><a href='https://github.com/purduesigbots/BLRS-Wiki/commits/master/?author=RohanBPatel'>My Commits</a></li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        High Energy Physics Research
+                      
+                    </h3>
+                    
+                      <span class="project-tags">Programming</span>
+                    
+                  </div>
+                  
+                  
+                    <ul>
+                      <li>Trained neural network (PyTorch) to separate Standard Model and Supersymmetric Data</li><li>Presented at Spring Undergraduate Research Symposium</li>
+                    </ul>
+                  
+                  
+                    <!-- <div class="gallery main-gallery"> -->
+                    <div class="gallery single-image-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/PHYS 324 CMS Poster.png"
+                               alt="">
+                          <figcaption></figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        Piano Hand Simulation
+                      
+                    </h3>
+                    
+                      <span class="project-tags">Programming | Robotics</span>
+                    
+                  </div>
+                  
+                  
+                    <ul>
+                      <li>Translated CAD to URDF</li><li>Programmed PID controller with multithreading to simulate robotic hand in a virtual environment</li>
+                    </ul>
+                  
+                  
+                    <!-- <div class="gallery main-gallery"> -->
+                    <div class="gallery single-image-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/Piano_Hand_Playing.gif"
+                               alt="Robotic Hand Playing &#34;Hot Cross Buns&#34; in ROS2-controlled Gazebo simulator">
+                          <figcaption>Robotic Hand Playing &#34;Hot Cross Buns&#34; in ROS2-controlled Gazebo simulator</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        Bokeh Image Filter
+                      
+                    </h3>
+                    
+                      <span class="project-tags">Programming</span>
+                    
+                  </div>
+                  <p>Created a post-processing image filter (using PIL and ffmpeg) that animates an image using progressively smaller bokeh circles to unveil the final picture</p>
+                  
+                  
+                    <!-- <div class="gallery main-gallery"> -->
+                    <div class="gallery feature-gallery">
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/circle_anim_1.gif"
+                               alt="Great Wave (mirrored)">
+                          <figcaption>Great Wave (mirrored)</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/circle_anim_2.gif"
+                               alt="Starry Night">
+                          <figcaption>Starry Night</figcaption>
+                        </figure>
+                      
+                        <figure>
+                          <img width="600"
+                               height="338"
+                               src="portfolio_media/circle_anim_3.gif"
+                               alt="Autumn Leaves">
+                          <figcaption>Autumn Leaves</figcaption>
+                        </figure>
+                      
+                    </div>
+                  
+                </section>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        VEX Robotics
+                      
+                    </h3>
+                    
+                      <span class="project-tags">Robotics</span>
+                    
+                  </div>
+                  
+                  
+                    <ul>
+                      <li>VEX Robotics World Championship <ol> <li>2025 Division Amaze Award (Team BLRS2 Mechanical Engineer)</li> <li>2023 Design Award (Team 81P Design & Build Lead)</li> <li>2022 Excellence Award - Highest award presented in the world (Team 81P Design & Build Lead)</li> </ol></li><li><a href='https://youtu.be/pPLm9Adm-q8'>22-23 Worlds Robot Showcase</a></li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        Purdue Solar Racing Data Analysis
+                      
+                    </h3>
+                    
+                      <span class="project-tags">Programming</span>
+                    
+                  </div>
+                  
+                  
+                    <ul>
+                      <li>Analyzed data from the American Solar Challenge to simulate car and optimize physical parameters</li><li>Combined sensor data from CAN bus, motor encoders, GPS, weather, and solar panels with pandas, SciPy, SymPy, and Matplotlib</li>
+                    </ul>
+                  
+                  
+                </section>
+              
+                <section>
+                  <div class="project-header">
+                    <h3>
+                      
+                        Teacup Ride Simulation
+                      
+                    </h3>
+                    
+                      <span class="project-tags">Programming</span>
+                    
+                  </div>
+                  <p>An old video (from highschool) on the physics of amusement park teacup rides made with Manim CE <video width='320' controls> <source src='portfolio_media/teacup.mp4' type='video/mp4'> Your browser does not support videos. </video></p>
+                  
+                  
+                </section>
+              
+            </section>
+          
+
+          
+
+          
+            <section>
+              <h2 class="section-heading">Volunteer Experience</h2>
+              
+                <section>
+                  <h3>
+                    
+                      Volunteer at Numerous Robotics Events
+                    
+                  </h3>
+                  
+                  <p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Event</th>
+      <th>Date</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-25-0094.html#general-info">Speedway Push Back High School Signature Event</a></td>
+      <td>2025-11-21</td>
+      <td>Judge</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-25-1810.html#general-info">Purdue SIGBots VEX V5 Robotics Competition Fall Tournament Push Back</a></td>
+      <td>2025-11-15</td>
+      <td>Field Manager</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/college-competition/RE-VURC-24-8590.html#general-info">Purdue SIGBots Slam and Jam VEXU Qualifier</a></td>
+      <td>2025-03-08</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-24-8612.html#general-info">Purdue SIGBots VEX V5 Robotics Competition Winter Tournament High Stakes</a></td>
+      <td>2025-01-18</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-24-5556.html#general-info">Sugar Rush VEX V5 Robotics Competition Signature Event</a></td>
+      <td>2025-01-03</td>
+      <td>Co-Founder, Judge</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-24-7273.html#general-info">Purdue SIGBots VEX V5 Robotics Competition Fall Tournament High Stakes</a></td>
+      <td>2024-12-07</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-V5RC-24-5636.html#general-info">Speedway High Stakes VEX V5 Robotics Competition Signature Event</a></td>
+      <td>2024-11-22</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/college-competition/RE-VEXU-23-4090.html#general-info">Purdue SIGBots Slam and Jam VexU Qualifier; West Lafayette, IN</a></td>
+      <td>2024-02-24</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-4091.html#general-info">Purdue SIGBots VRC Blended Winter Qualifier; West Lafayette, IN</a></td>
+      <td>2024-01-20</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-1486.html#general-info">Sugar Rush VRC Signature Event (HS Only)</a></td>
+      <td>2023-12-15</td>
+      <td>Co-Founder, Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-23-2859.html#general-info">Purdue SIGBots VRC Blended Fall Qualifier; West Lafayette, IN</a></td>
+      <td>2023-12-02</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-iq-competition/RE-VIQC-22-8432.html#general-info">Vexmen Premier VIQC Qualifying Tournament - Middle School</a></td>
+      <td>2022-12-03</td>
+      <td>Judge</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-iq-competition/RE-VIQC-21-5137.html#general-info">Vexmen Premier VIQC Qualifying Tournament - Middle School</a></td>
+      <td>2021-12-04</td>
+      <td>Scorekeeper</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-21-3885.html#general-info">Vexmen Finale High School VRC</a></td>
+      <td>2021-03-27</td>
+      <td>Scorekeeper</td>
+    </tr>
+  </tbody>
+</table></p>
+                  
+                </section>
+              
+                <section>
+                  <h3>
+                    
+                      <a href='https://www.techpointyouth.org/coding-help-hotline'>Coding Hotline Helper</a> at <a href="https://www.techpointyouth.org/coding-help-hotline">Techpoint Youth</a>
+                    
+                  </h3>
+                  
+                    <p class="section-label">12/2024 - Present</p>
+                  
+                  
+                  
+                    <ul>
+                      <li>Helped 25+ VEX IQ and VRC teams with mechanical and coding issues in 30-minute virtual video calls</li><li>Schedule a session <a href='https://calendly.com/techpointyouth-programing/coding-help-hotline'>here</a></li>
+                    </ul>
+                  
+                </section>
+              
+            </section>
+          
+
+          
+            <section>
+              <h2 class="section-heading">References</h2>
+              
+                <section>
+                  <h3>Taylor Daniels (<a href='mailto:daniel84@purdue.edu'>email</a> and <a href='https://www.math.purdue.edu/~daniel84/'>website</a>)</h3>
+                  <p class="section-label">Differential Equations Professor</p>
+                  
+                    <blockquote>
+                      You did exceptional work this semester, and it deserves note from your department. I want to personally refer your name to [your advisor and head of undergraduate programs].
+                    </blockquote>
+                  
+                </section>
+              
+            </section>
+          
+        </main>
+
+        <!-- Sidebar Section -->
+        <aside>
+          
+            <section>
+              <h2 class="section-heading">Education</h2>
+              
+                <section>
+                  <h3>
+                    
+                      <a href="https://engineering.purdue.edu/ME">Purdue University</a>
+                    
+                  </h3>
+                  <p class="section-label">West Lafayette, IN</p>
+                  
+                    <h4>Degrees</h4>
+                    <ul>
+                      <li>Bachelor of Science in Mechanical Engineering</li><li>Minor in Mathematics</li>
+                    </ul>
+                  
+                  
+                  
+                    <p>
+                      
+                      <span class="block">Cumulative GPA: <b>3.91</b></span>
+                      <span class="block">Graduation Date: 05/2027</span>
+                    </p>
+                  
+                  
+                    <h4> Relevant Coursework </h4>
+                    <ul>
+                      <li>ME 581 Numerical Methods in ME</li><li>FS 586 Scientific Machine Learning</li><li>ME 498 Research in ME</li><li>PHYS 324 Research in Big Data Physics II</li><li>ME 297 Graphical Communication And Spatial Analysis</li>
+                    </ul>
+                  
+                </section>
+              
+            </section>
+          
+
+          
+            <section>
+              <h2 class="section-heading">Skills</h2>
+              <ul class="unstyled-list">
+                
+                  <li>
+                    <h3><b>Languages:</b> Python (PyTorch, TensorFlow, keras, PyDMD, PySINDy, scikit-learn, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), R, C, C++, Java, VBA, LaTeX, Shell script, ffmpeg CLI</h3>
+                    
+                  </li>
+                
+                  <li>
+                    <h3><b>Systems:</b> SolidWorks, NX, Inventor, Fusion 360, SPICE, Git, ROS2 (Foxy, Humble), Cura Slicer, MS Office, Adobe Suite</h3>
+                    
+                  </li>
+                
+                  <li>
+                    <h3><b>Design</b>: GD&T, FEA (certified by ASME Milestones), CAM, 3D Printing, shop tools, lathe, CNC</h3>
+                    
+                  </li>
+                
+              </ul>
+            </section>
+          
+
+          
+
+          
+        </aside>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p>© 2025 Rohan Patel. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

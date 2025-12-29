@@ -1,0 +1,267 @@
+{
+  "name": "Rohan Patel",
+  "label": "Engineer & Researcher",
+  "comment label": "Engineer, Researcher, Recreational Mathematician",
+  "image_path": "portfolio_media/My_Face.jpg",
+  "contact": {
+    "email": "pate2043@purdue.edu",
+    "phone": "610-469-4713",
+    "comment location": "City, State, Country"
+  },
+  "summary": "I am a Purdue engineer interested in dynamical systems, numerical methods, and scientific machine learning (SciML).",
+  "base_url": "rohanbpatel.github.io",
+  "social_links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rohan-patel-eng",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/RohanBPatel",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Purdue University <a href='https://engineering.purdue.edu/ME'>School of Mechanical Engineering</a> and <a href='https://ag.purdue.edu/department/foodsci/'>Department of Food Science</a>",
+      "position": "SciML Research Assistant",
+      "start_date": "01/2025",
+      "end_date": "Present",
+      "summary": "Working with Prof. <a href='https://engineering.purdue.edu/ABE/people/ptProfile?resource_id=42935'>Corvalan</a> in SciML <!-- https://ag.purdue.edu/department/foodsci/directory.html#/corvalac -->",
+      "highlights": [
+        "Simulated fluid dynamics of microdroplets for use in 3D printing",
+        "Used Finite Elements and Physics-Informed Neural Networks to solve differential equations with mixed boundary conditions",
+        "Experimented with biased Neural Autoencoders to statistically test food rheology data"
+      ]
+    },
+    {
+      "company": "EdHelper LLC",
+      "position": "Tutor",
+      "start_date": "06/2022",
+      "end_date": "08/2022",
+      "highlights": [
+        "Taught classes on middle and high school math",
+			  "Graded SAT practice tests",
+			  "Developed an automated system with Excel, WhatsApp, and Python to score tests and send score reports for 100+ customers"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "3D Printed Roller Coaster",
+      "tags": ["CAD", "Programming", "Robotics"],
+      "summary": "Theme Park Engineering and Design",
+      "highlights": [
+        "Led over 45 members in designing and manufacturing a 1:30 scale roller coaster",
+		    "Developed a full kinematic simulation and ODE solver in Python with NumPy, Matplotlib, Scipy, logging, etc.",
+		    "Optimized track segmentation and structural support placement to minimize print time and beam deflection",
+		    "Created SolidWorks macros (VBA) for members to model track",
+        "Presented <em>Roller Coaster Track and Support Structure: Dynamics, Simulation, and Optimization</em> at Undergraduate Research Conference",
+        "<a href='https://youtu.be/KLCaBF1GcpE'>23-24 Manufacturing Documentation Video</a>"
+      ],
+      "images": [
+        {
+          "img_path": "portfolio_media/anim_test_2.gif"
+        },
+        {
+          "img_path": "portfolio_media/figure_01.png"
+        },
+        {
+          "img_path": "portfolio_media/figure_08.png"
+        },
+        {
+          "img_path": "portfolio_media/deflection.png"
+        },
+        {
+          "img_path": "portfolio_media/tped_3DPRC_23-24.jpg"
+        },
+        {
+          "img_path": "portfolio_media/tped_3DPRC_CAD.png"
+        }
+        ]
+    },
+    {
+      "title": "Robotics Wiki",
+      "tags": ["Robotics"],
+      "summary": "I maintain this open-source robotics documentation project.",
+      "url": "https://wiki.purduesigbots.com/",
+      "highlights": [
+        "largest open source knowledge base for competitive robotics",
+        "over 40K monthly pageviews",
+        "Some of my most educational articles are on <a href='https://wiki.purduesigbots.com/hardware/shooting-mechanisms/flywheel'>flywheels</a>, <a href='https://wiki.purduesigbots.com/hardware/lifts/four-bar'>four-bars</a>, and <a href='https://wiki.purduesigbots.com/hardware/design-fundamentals/center-of-mass'>center of mass</a>.",
+        "<a href='https://github.com/purduesigbots/BLRS-Wiki/commits/master/?author=RohanBPatel'>My Commits</a>"
+      ]
+    },
+    {
+      "title": "High Energy Physics Research",
+      "tags": ["Programming"],
+      "gallery_type": "single-image-gallery",
+      "images": [
+        {
+          "img_path": "portfolio_media/PHYS 324 CMS Poster.png"
+        }
+      ],
+      "highlights": [
+        "Trained neural network (PyTorch) to separate Standard Model and Supersymmetric Data",
+			  "Presented at Spring Undergraduate Research Symposium"
+      ]
+    },
+    {
+      "title": "Piano Hand Simulation",
+      "tags": ["Programming", "Robotics"],
+      "highlights": [
+        "Translated CAD to URDF",
+        "Programmed PID controller with multithreading to simulate robotic hand in a virtual environment"
+      ],
+      "gallery_type": "single-image-gallery",
+      "images": [
+        {
+          "img_path": "portfolio_media/Piano_Hand_Playing.gif",
+          "caption": "Robotic Hand Playing \"Hot Cross Buns\" in ROS2-controlled Gazebo simulator"
+        }
+      ]
+    },
+    {
+      "title": "Bokeh Image Filter",
+      "tags": ["Programming"],
+      "summary": "Created a post-processing image filter (using PIL and ffmpeg) that animates an image using progressively smaller bokeh circles to unveil the final picture",
+      "gallery_type": "feature-gallery",
+      "images": [
+        {
+          "img_path": "portfolio_media/circle_anim_1.gif",
+          "caption": "Great Wave (mirrored)"
+        },
+        {
+          "img_path": "portfolio_media/circle_anim_2.gif",
+          "caption": "Starry Night"
+        },
+        {
+          "img_path": "portfolio_media/circle_anim_3.gif",
+          "caption": "Autumn Leaves"
+        }
+      ]
+    },
+    {
+      "title": "VEX Robotics",
+      "tags": ["Robotics"],
+      "comment summary": "robot pictures, team pictures, maybe engineering notebook",
+      "highlights": [
+        "VEX Robotics World Championship <ol> <li>2025 Division Amaze Award (Team BLRS2 Mechanical Engineer)</li> <li>2023 Design Award (Team 81P Design & Build Lead)</li> <li>2022 Excellence Award - Highest award presented in the world (Team 81P Design & Build Lead)</li> </ol>",
+        "<a href='https://youtu.be/pPLm9Adm-q8'>22-23 Worlds Robot Showcase</a>"
+      ]
+    },
+    {
+      "title": "Purdue Solar Racing Data Analysis",
+      "tags": ["Programming"],
+      "highlights": [
+        "Analyzed data from the American Solar Challenge to simulate car and optimize physical parameters",
+        "Combined sensor data from CAN bus, motor encoders, GPS, weather, and solar panels with pandas, SciPy, SymPy, and Matplotlib"
+      ]
+    },
+    {
+      "title": "Teacup Ride Simulation",
+      "tags": ["Programming"],
+      "summary": "An old video (from highschool) on the physics of amusement park teacup rides made with Manim CE <video width='320' controls> <source src='portfolio_media/teacup.mp4' type='video/mp4'> Your browser does not support videos. </video>"
+    }
+  ],
+  "comment resources": [
+    {
+      "title": "Desmos",
+      "highlights": [
+        "<a href='https://www.desmos.com/calculator/iu7rktflxn'>Spiral Fit</a>"
+      ]
+    },
+    {
+      "title": "LaTeX"
+    },
+    {
+      "comment title": "CAD",
+      "comment highlights": [
+        "SolidWorks macros: ImportBatchSplines",
+        "Fusion 2 urdf link"
+      ]
+    }
+  ],
+  "volunteer_experience": [
+    {
+      "organization": "Numerous Robotics Events",
+      "position": "Volunteer",
+      "summary": ""
+    },
+    {
+      "organization": "Techpoint Youth",
+      "position": "<a href='https://www.techpointyouth.org/coding-help-hotline'>Coding Hotline Helper</a>",
+      "url": "https://www.techpointyouth.org/coding-help-hotline",
+      "start_date": "12/2024",
+      "end_date": "Present",
+      "highlights": [
+        "Helped 25+ VEX IQ and VRC teams with mechanical and coding issues in 30-minute virtual video calls", 
+        "Schedule a session <a href='https://calendly.com/techpointyouth-programing/coding-help-hotline'>here</a>"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Purdue University",
+      "location": "West Lafayette, IN",
+      "url": "https://engineering.purdue.edu/ME",
+      "degrees": [
+        "Bachelor of Science in Mechanical Engineering",
+        "Minor in Mathematics"
+      ],
+      "comment honors": [
+        "Dean's List (5/5)", 
+        "Semester Honors (5/5)",
+        "VEX awards",
+        "Research grant"
+      ],
+      "gpa_cumulative": "3.91",
+      "graduation_date": "05/2027",
+      "coursework": [
+        "ME 581 Numerical Methods in ME",
+        "FS 586 Scientific Machine Learning",
+        "ME 498 Research in ME",
+        "PHYS 324 Research in Big Data Physics II",
+        "ME 297 Graphical Communication And Spatial Analysis"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "<b>Languages:</b> Python (PyTorch, TensorFlow, keras, PyDMD, PySINDy, scikit-learn, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), R, C, C++, Java, VBA, LaTeX, Shell script, ffmpeg CLI",
+      "comment": "could add logging, pathlib, os, PIL, opencv, warnings, itertools, json, manim"
+    },
+    {
+      "name": "<b>Systems:</b> SolidWorks, NX, Inventor, Fusion 360, SPICE, Git, ROS2 (Foxy, Humble), Cura Slicer, MS Office, Adobe Suite"
+    },
+    {
+      "name": "<b>Design</b>: GD&T, FEA (certified by ASME Milestones), CAM, 3D Printing, shop tools, lathe, CNC"
+    }
+  ],
+  "comment interests": [
+    {
+      "name": "My First Hobby",
+      "summary": "Short summary about my first Hobby",
+      "images": [
+        {
+          "img_path": "https://picsum.photos/600/338?random=7",
+          "caption": "Image Caption 7"
+        }
+      ]
+    }
+  ],
+  "comment languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "references": [
+    {
+      "name": "Taylor Daniels (<a href='mailto:daniel84@purdue.edu'>email</a> and <a href='https://www.math.purdue.edu/~daniel84/'>website</a>)",
+      "relation": "Differential Equations Professor",
+      "reference": "You did exceptional work this semester, and it deserves note from your department. I want to personally refer your name to [your advisor and head of undergraduate programs]."
+    }
+  ]
+}
