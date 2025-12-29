@@ -50,7 +50,7 @@
   "projects": [
     {
       "title": "3D Printed Roller Coaster",
-      "tags": ["CAD", "Programming", "Robotics"],
+      "tags": ["CAD", "Programming"],
       "summary": "Theme Park Engineering and Design",
       "highlights": [
         "Led over 45 members in designing and manufacturing a 1:30 scale roller coaster",
@@ -82,9 +82,9 @@
         ]
     },
     {
-      "title": "Robotics Wiki",
+      "title": "Robotics Wiki Lead",
       "tags": ["Robotics"],
-      "summary": "I maintain this open-source robotics documentation project.",
+      "summary": "I organize, write, and maintain this open-source robotics documentation project.",
       "url": "https://wiki.purduesigbots.com/",
       "highlights": [
         "Largest open source knowledge base for competitive robotics",
@@ -229,7 +229,7 @@
   ],
   "skills": [
     {
-      "name": "<b>Languages:</b> Python (PyTorch, TensorFlow, keras, PyDMD, PySINDy, scikit-learn, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), R, C, C++, Java, VBA, LaTeX, Shell script, ffmpeg CLI",
+      "name": "<b>Languages:</b> Python (PyTorch, TensorFlow, keras, PyDMD, PySINDy, scikit-learn, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), C, C++, Java, VBA, R, LaTeX, Shell script, ffmpeg CLI, HTML, CSS",
       "comment": "could add logging, pathlib, os, PIL, opencv, warnings, itertools, json, manim"
     },
     {
