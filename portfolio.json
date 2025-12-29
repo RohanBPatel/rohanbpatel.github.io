@@ -109,7 +109,7 @@
     },
     {
       "title": "Piano Hand Simulation",
-      "tags": ["Programming", "Robotics"],
+      "tags": ["CAD", "Programming", "Robotics"],
       "highlights": [
         "Translated CAD to URDF",
         "Programmed PID controller with multithreading to simulate robotic hand in a virtual environment"
@@ -147,8 +147,8 @@
       "tags": ["Robotics"],
       "comment summary": "robot pictures, team pictures, maybe engineering notebook",
       "highlights": [
-        "VEX Robotics World Championship <ol> <li>2025 Division Amaze Award (Team BLRS2 Mechanical Engineer)</li> <li>2023 Design Award (Team 81P Design & Build Lead)</li> <li>2022 Excellence Award - Highest award presented in the world (Team 81P Design & Build Lead)</li> </ol>",
-        "<a href='https://youtu.be/pPLm9Adm-q8'>22-23 Worlds Robot Showcase</a>"
+        "VEX Robotics World Championship <ol> <li>2025 Division Amaze Award (Team BLRS2 Mechanical Engineer)</li> <li>2023 Design Award (Team 81P Design & Build Lead)</li> <li>2022 Excellence Award - Highest award presented in the world (Team 81P Design & Build Lead)</li> <!-- <li>50+ regional, state, and local awards</li>--> </ol>",
+        "22-23 Worlds Robot Showcase<br><div class='gallery single-image-gallery'><iframe width='560' height='315' src='https://www.youtube.com/embed/pPLm9Adm-q8?si=jvJ-NHcNXlnEBJgb' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div> <!-- <a href='https://youtu.be/pPLm9Adm-q8'>22-23 Worlds Robot Showcase</a> -->"
       ]
     },
     {
@@ -162,7 +162,7 @@
     {
       "title": "Teacup Ride Simulation",
       "tags": ["Programming"],
-      "summary": "An old video (from highschool) on the physics of amusement park teacup rides made with Manim CE <video width='320' controls> <source src='portfolio_media/teacup.mp4' type='video/mp4'> Your browser does not support videos. </video>"
+      "summary": "An old video (from highschool) on the physics of amusement park teacup rides made with Manim CE<br><div class='gallery single-image-gallery'><video width='420' controls> <source src='portfolio_media/teacup.mp4' type='video/mp4'> Your browser does not support videos. </video></div>"
     }
   ],
   "comment resources": [
