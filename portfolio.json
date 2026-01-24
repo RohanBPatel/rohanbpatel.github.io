@@ -25,14 +25,16 @@
   "work_experience": [
     {
       "company": "Purdue University <a href='https://engineering.purdue.edu/ME'>School of Mechanical Engineering</a> and <a href='https://ag.purdue.edu/department/foodsci/'>Department of Food Science</a>",
-      "position": "SciML Research Assistant",
+      "position": "SciML Research Assistant (for credit and pay)",
       "start_date": "01/2025",
       "end_date": "Present",
-      "summary": "Working with Prof. <a href='https://engineering.purdue.edu/ABE/people/ptProfile?resource_id=42935'>Corvalan</a> in SciML <!-- https://ag.purdue.edu/department/foodsci/directory.html#/corvalac -->",
+      "summary": "Working with Prof. <a href='https://engineering.purdue.edu/ABE/people/ptProfile?resource_id=42935'>Corvalan</a> in SciML <!-- https://ag.purdue.edu/department/foodsci/directory.html#/corvalac --> as ",
       "highlights": [
         "Simulated fluid dynamics of microdroplets for use in 3D printing",
         "Used Finite Elements and Physics-Informed Neural Networks to solve differential equations with mixed boundary conditions",
-        "Experimented with biased Neural Autoencoders to statistically test food rheology data"
+        "Experimented with biased Neural Autoencoders to statistically test food rheology data",
+        "Inferred phase transition properties in metabolism using PCA and Variational Autoencoders",
+        "Modeling metabolism as a dynamical system in latent space of Variational Autoencoders (currently drafting paper)"
       ]
     },
     {
@@ -62,22 +64,22 @@
       ],
       "images": [
         {
-          "img_path": "portfolio_media/anim_test_2.gif"
+          "img_path": "portfolio_media/coaster/anim_test_2.gif"
         },
         {
-          "img_path": "portfolio_media/figure_01.png"
+          "img_path": "portfolio_media/coaster/figure_01.png"
         },
         {
-          "img_path": "portfolio_media/figure_08.png"
+          "img_path": "portfolio_media/coaster/figure_08.png"
         },
         {
-          "img_path": "portfolio_media/deflection.png"
+          "img_path": "portfolio_media/coaster/deflection.png"
         },
         {
-          "img_path": "portfolio_media/tped_3DPRC_23-24.jpg"
+          "img_path": "portfolio_media/coaster/tped_3DPRC_23-24.jpg"
         },
         {
-          "img_path": "portfolio_media/tped_3DPRC_CAD.png"
+          "img_path": "portfolio_media/coaster/tped_3DPRC_CAD.png"
         }
         ]
     },
@@ -183,6 +185,13 @@
       ]
     }
   ],
+  "references": [
+    {
+      "name": "Prof. Taylor Daniels (<a href='mailto:daniel84@purdue.edu'>email</a> and <a href='https://www.math.purdue.edu/~daniel84/'>website</a>)",
+      "relation": "Differential Equations Professor",
+      "reference": "You did exceptional work this semester, and it deserves note from your department. I want to personally refer your name to [your advisor and head of undergraduate programs]."
+    }
+  ],
   "volunteer_experience": [
     {
       "organization": "Numerous Robotics Events",
@@ -230,7 +239,7 @@
   "skills": [
     {
       "name": "<b>Languages:</b> Python (PyTorch, TensorFlow, keras, PyDMD, PySINDy, scikit-learn, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), C, C++, Java, VBA, R, LaTeX, Shell script, ffmpeg CLI, HTML, CSS",
-      "comment": "could add logging, pathlib, os, PIL, opencv, warnings, itertools, json, manim"
+      "comment": "could add logging, pathlib, os, PIL, opencv, warnings, itertools, json, manim, selenium"
     },
     {
       "name": "<b>Systems:</b> SolidWorks, NX, Inventor, Fusion 360, SPICE, Git, ROS2 (Foxy, Humble), Cura Slicer, MS Office, Adobe Suite"
@@ -255,13 +264,6 @@
     {
       "language": "English",
       "fluency": "Native speaker"
-    }
-  ],
-  "references": [
-    {
-      "name": "Prof. Taylor Daniels (<a href='mailto:daniel84@purdue.edu'>email</a> and <a href='https://www.math.purdue.edu/~daniel84/'>website</a>)",
-      "relation": "Differential Equations Professor",
-      "reference": "You did exceptional work this semester, and it deserves note from your department. I want to personally refer your name to [your advisor and head of undergraduate programs]."
     }
   ]
 }
