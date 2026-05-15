@@ -238,11 +238,11 @@
   ],
   "skills": [
     {
-      "name": "<b>Languages:</b> Python (PyTorch, TensorFlow, keras, PyDMD, PySINDy, scikit-learn, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), C, C++, Java, VBA, R, LaTeX, Shell script, ffmpeg CLI, HTML, CSS",
-      "comment": "could add logging, pathlib, os, PIL, opencv, warnings, itertools, json, manim, selenium"
+      "name": "<b>Languages:</b> Python (PyTorch, TensorFlow / keras, PyDMD, PySINDy, scikit-learn, OpenCV, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, PyQt6, manim, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), C, C++, Java, VBA, R, LaTeX, Shell script, ffmpeg CLI, HTML, CSS",
+      "comment": "could add logging, pathlib, os, PIL, warnings, itertools, json, selenium"
     },
     {
-      "name": "<b>Systems:</b> SolidWorks, NX, Inventor, Fusion 360, SPICE, Git, ROS2 (Foxy, Humble), Cura Slicer, MS Office, Adobe Suite"
+      "name": "<b>Systems:</b> SolidWorks, NX, Inventor, Fusion 360, SPICE, Git, ROS2 (Foxy, Humble), MS Office, Adobe Suite"
     },
     {
       "name": "<b>Design</b>: GD&T, FEA (certified by ASME Milestones), CAM, 3D Printing, shop tools, lathe, CNC"
