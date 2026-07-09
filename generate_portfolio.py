@@ -8,7 +8,12 @@ import pandas as pd
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 df = pd.read_excel("portfolio_media/VEX_Volunteering.xlsx")
-df['Event'] = df.apply(lambda row: f'<a href="{row["Link"]}">{row["Event"]}</a>', axis=1)
+df["Link"] = df["Link"].str.replace(
+    "www.robotevents.com",
+    "events.vex.com",
+    regex=False,
+)
+df["Event"] = df.apply(lambda row: f'<a href="{row["Link"]}">{row["Event"]}</a>', axis=1)
 df = df.drop(columns=["Link", "Setup"])
 vex_volunteering_html = df.to_html(escape=False, index=False)
 
@@ -29,11 +34,11 @@ if "social_links" in data:
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader("."), autoescape=True, cache_size=0)
 index_template = env.get_template("index_template.html")
-resume_template = env.get_template("resume_template.html")
+# resume_template = env.get_template("resume_template.html")
 
 # Render the template with the data
 html_output = index_template.render(**data)
-resume_output = resume_template.render(**data)
+# resume_output = resume_template.render(**data)
 
 # Write the output to an HTML file
 with Path("index.html").open("w", encoding="utf-8") as f:
