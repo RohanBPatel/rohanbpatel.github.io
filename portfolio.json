@@ -24,11 +24,11 @@
   ],
   "work_experience": [
     {
-      "company": "CISTAR NSF Engineering Research Center",
+      "company": "<a href='https://cistar.us/'>CISTAR NSF Engineering Research Center</a>",
       "position": "Research Intern",
-      "start_date": "05/2027",
-      "end_date": "07/2027",
-      "summmary": "Working in <a href='https://secquoia.github.io/'>SECQUOIA</a> on <i>Deep Operator Networks for Secure and Efficient Chemical Engineering Application</i>"
+      "start_date": "05/2026",
+      "end_date": "07/2026",
+      "summary": "Working in <a href='https://secquoia.github.io/'>SECQUOIA</a> on <i>Deep Operator Networks for Secure and Efficient Chemical Engineering Application</i>"
     },
     {
       "company": "Purdue University <a href='https://engineering.purdue.edu/ME'>School of Mechanical Engineering</a> and <a href='https://ag.purdue.edu/department/foodsci/'>Department of Food Science</a>",
