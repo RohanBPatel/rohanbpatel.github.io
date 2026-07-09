@@ -145,7 +145,7 @@
                       {% if project.url %}
                         <a href="{{ project.url }}">{{ project.title }}</a>
                       {% else %}
-                        {{ project.title }}
+                        {{ project.title | safe }}
                       {% endif %}
                     </h3>
                     {% if project.tags %}
