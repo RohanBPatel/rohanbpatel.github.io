@@ -2,6 +2,11 @@
   --link-color: #0077cc;
   --link-color-hover: #00487c;
   --header-footer-bg-color: #f0f0f0;
+  --banner-neutral: #f6f3f5;
+  --banner-pink: rgba(245, 183, 211, 0.58);
+  --banner-purple: rgba(190, 174, 226, 0.56);
+  --banner-sky-blue: rgba(143, 198, 232, 0.62);
+  --banner-grass-green: rgba(169, 211, 135, 0.56);
   --aside-accent-color: #9d836b;
   --skill-bar-fill-color: #f3e4c6;
   --blockquote-bg-color: #f7fafc;
@@ -143,6 +148,44 @@ section {
 }
 
 .page-header {
+  --banner-portrait-x: 50%;
+  --banner-sky-y: 5.5rem;
+  --banner-grass-y: 15rem;
+
+  background:
+    radial-gradient(
+      ellipse 17rem 10rem at var(--banner-portrait-x) var(--banner-sky-y),
+      var(--banner-sky-blue) 0%,
+      rgba(143, 198, 232, 0.28) 46%,
+      transparent 74%
+    ),
+    radial-gradient(
+      ellipse 17rem 9rem at var(--banner-portrait-x) var(--banner-grass-y),
+      var(--banner-grass-green) 0%,
+      rgba(169, 211, 135, 0.24) 48%,
+      transparent 76%
+    ),
+    radial-gradient(
+      ellipse 58% 72% at 0% 0%,
+      var(--banner-pink) 0%,
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 58% 72% at 100% 0%,
+      var(--banner-purple) 0%,
+      transparent 72%
+    ),
+    linear-gradient(
+      to bottom,
+      var(--banner-neutral) 0%,
+      rgba(246, 243, 245, 0.84) 48%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to right,
+      rgba(143, 198, 232, 0.52) 0%,
+      rgba(169, 211, 135, 0.5) 100%
+    );
   border-bottom: 1px solid #ccc;
 }
 
@@ -508,6 +551,12 @@ td {
 
   .header-top {
     gap: 2rem;
+  }
+
+  .page-header {
+    --banner-portrait-x: max(8rem, calc((100% - 1200px) / 2 + 6rem));
+    --banner-sky-y: 5rem;
+    --banner-grass-y: 12rem;
   }
 
   .header-image {
