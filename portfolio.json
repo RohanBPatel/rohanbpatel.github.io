@@ -262,15 +262,15 @@
       "coursework": [
         "ME 581 Numerical Methods in ME",
         "FS 586 Scientific Machine Learning",
+        "ME 509 Intermediate Fluid Mechanics",
         "ME 498 Research in ME",
-        "PHYS 324 Research in Big Data Physics II",
-        "ME 297 Graphical Communication And Spatial Analysis"
+        "PHYS 324 Research in Big Data Physics II"
       ]
     }
   ],
   "skills": [
     {
-      "name": "<b>Languages:</b> Python (PyTorch, TensorFlow / keras, PyDMD, PySINDy, scikit-learn, OpenCV, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, PyQt6, manim, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), C, C++, Java, VBA, R, LaTeX, Shell script, ffmpeg CLI, HTML, CSS",
+      "name": "<b>Languages:</b> Python (PyTorch, TensorFlow / keras, PyDMD, PySINDy, scikit-learn, OpenCV, NumPy, Pandas, Matplotlib, SymPy, multiprocessing, serial, PyQt6, manim, etc.), MATLAB (Signal Processing, ML, Simulink, etc.), Rust, C, C++, Java, VBA, R, LaTeX, Shell script, ffmpeg CLI, HTML, CSS",
       "comment": "could add logging, pathlib, os, PIL, warnings, itertools, json, selenium"
     },
     {
