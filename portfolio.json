@@ -62,12 +62,6 @@
   ],
   "projects": [
     {
-      "title": "Adaptive Light/Dark Mode for LaTeX",
-      "tags": ["Programming"],
-      "summary": "A dynamic LaTeX theming engine that adjusts document page and text colors based on the time of day",
-      "url": "https://github.com/RohanBPatel/adaptive-light-dark-mode-latex"
-    },
-    {
       "title": "Cylinder Wake: Drag and Spatio-temporal Frequency Analysis",
       "tags": ["Programming"],
       "summary": "Image-based pipeline for extracting drag coefficients and vortex-shedding frequencies from soap film flow visualization experiments. Features cylinder detection, pathline velocity extraction, wake model fitting, and Dynamic Mode Decomposition for frequency analysis across varying Reynolds numbers and surface roughness values.",
@@ -125,6 +119,18 @@
         "Over 40K monthly pageviews",
         "Some of my most educational articles are on <a href='https://wiki.purduesigbots.com/hardware/shooting-mechanisms/flywheel'>flywheels</a>, <a href='https://wiki.purduesigbots.com/hardware/lifts/four-bar'>four-bars</a>, and <a href='https://wiki.purduesigbots.com/hardware/design-fundamentals/center-of-mass'>center of mass</a>.",
         "<a href='https://github.com/purduesigbots/BLRS-Wiki/commits/master/?author=RohanBPatel'>My Commits</a>"
+      ]
+    },
+    {
+      "title": "Adaptive Light/Dark Mode for LaTeX",
+      "tags": ["Programming"],
+      "summary": "A dynamic LaTeX theming engine that adjusts document page and text colors based on the time of day",
+      "url": "https://github.com/RohanBPatel/adaptive-light-dark-mode-latex",
+      "gallery_type": "single-image-gallery",
+      "images": [
+        {
+          "img_path": "portfolio_media/adaptive_latex_banner.png"
+        }
       ]
     },
     {
