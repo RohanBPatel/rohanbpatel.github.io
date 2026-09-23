@@ -66,7 +66,24 @@
       "tags": ["Programming"],
       "summary": "Image-based pipeline for extracting drag coefficients and vortex-shedding frequencies from soap film flow visualization experiments. Features cylinder detection, pathline velocity extraction, wake model fitting, and Dynamic Mode Decomposition for frequency analysis across varying Reynolds numbers and surface roughness values.",
       "url": "https://github.com/RohanBPatel/cylinder-wake-drag-frequency",
-      "comment images": "Add wake grid images, C_d vs Re, and some sample DMD modes if possible"
+      "comment images": "Add some sample DMD modes if possible",
+      "images": [
+        {
+          "img_path": "portfolio_media/cylinder-wake-drag-frequency/T8_Open_Lab_3_10_100.gif"
+        },
+        {
+          "img_path": "portfolio_media/cylinder-wake-drag-frequency/vel_field_grid.png"
+        },
+        {
+          "img_path": "portfolio_media/cylinder-wake-drag-frequency/wake_grid.png"
+        },
+        {
+          "img_path": "portfolio_media/cylinder-wake-drag-frequency/Cd_Re.png"
+        },
+        {
+          "img_path": "portfolio_media/cylinder-wake-drag-frequency/grit_220_St_Re.png"
+        }
+      ]
     },
     {
       "title": "Two-Stage Gearbox Optimizer",
