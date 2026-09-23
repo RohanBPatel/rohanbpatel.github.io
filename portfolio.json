@@ -151,20 +151,6 @@
       ]
     },
     {
-      "title": "High Energy Physics Research",
-      "tags": ["Programming"],
-      "gallery_type": "single-image-gallery",
-      "images": [
-        {
-          "img_path": "portfolio_media/PHYS 324 CMS Poster.png"
-        }
-      ],
-      "highlights": [
-        "Trained neural network (PyTorch) to separate Standard Model and Supersymmetric Data",
-			  "Presented at Spring Undergraduate Research Symposium"
-      ]
-    },
-    {
       "title": "Piano Hand Simulation",
       "tags": ["CAD", "Programming", "Robotics"],
       "highlights": [
@@ -180,7 +166,7 @@
       ]
     },
     {
-      "title": "Bokeh Image Filter (<a href='https://github.com/RohanBPatel/img2vid-stipple-animator'>Rust rewrite with more features in progress</a>)",
+      "title": "Bokeh img2vid Stippler (<a href='https://github.com/RohanBPatel/img2vid-stipple-animator'>Rust rewrite with more features in progress</a>)",
       "tags": ["Programming"],
       "summary": "Created a post-processing image filter (using PIL and ffmpeg) that animates an image using progressively smaller bokeh circles to unveil the final picture",
       "gallery_type": "feature-gallery",
@@ -214,6 +200,20 @@
       "highlights": [
         "Analyzed data from the American Solar Challenge to simulate car and optimize physical parameters",
         "Combined sensor data from CAN bus, motor encoders, GPS, weather, and solar panels with pandas, SciPy, SymPy, and Matplotlib"
+      ]
+    },
+    {
+      "title": "High Energy Physics Research",
+      "tags": ["Programming"],
+      "gallery_type": "single-image-gallery",
+      "images": [
+        {
+          "img_path": "portfolio_media/PHYS 324 CMS Poster.png"
+        }
+      ],
+      "highlights": [
+        "Trained neural network (PyTorch) to separate Standard Model and Supersymmetric Data",
+			  "Presented at Spring Undergraduate Research Symposium"
       ]
     },
     {
